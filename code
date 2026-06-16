@@ -1,1 +1,27 @@
 index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Il Mio Negozio</title>
+</head>
+<body>
+
+  <h1>Il Mio Negozio</h1>
+
+  <h2>Prodotto 1</h2>
+
+  <img src="https://via.placeholder.com/300"
+       alt="Prodotto"
+       width="300">
+
+  <p>Descrizione del prodotto.</p>
+
+  <h3>19,99 €</h3>
+
+  <a href="https://google.com">
+    <button>Compra Ora</button>
+  </a>
+
+</body>
+</html>
