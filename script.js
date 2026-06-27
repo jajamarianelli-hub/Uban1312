@@ -1,8 +1,7 @@
-const bottone = document.getElementById("compraBtn");
+const button = document.querySelectorAll(".buyBtn");
 
-bottone.addEventListener("click", function () {
-    alert("Grazie per il tuo interesse!");
-
-    // Reindirizza alla pagina desiderata
-    window.location.href = "https://google.com";
+bottoni.forEach(btn => {
+    btn.addEventListener("click", () => {
+        alert("Aggiunto al carrello!");
+    });
 });
