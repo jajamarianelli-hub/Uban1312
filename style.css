@@ -1,1 +1,65 @@
-a
+/* Sfondo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Titolo principale */
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Scheda prodotto */
+.prodotto {
+    background: white;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Immagine */
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Nome prodotto */
+h2 {
+    color: #222;
+}
+
+/* Descrizione */
+p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Prezzo */
+h3 {
+    color: #28a745;
+    font-size: 28px;
+}
+
+/* Bottone */
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Effetto al passaggio del mouse */
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
